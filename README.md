@@ -7,7 +7,7 @@ Built using **Python**, **Scikit-learn**, and **Streamlit**.
 ---
 
 ## 🚀 Live Demo
-(https://churn-prediction-model-ae5358rrq6sgzuoxxjgd9x.streamlit.app/)
+[Click Here](https://churn-prediction-model-ae5358rrq6sgzuoxxjgd9x.streamlit.app/)
 
 
 ---
