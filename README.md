@@ -140,9 +140,6 @@ streamlit run Churn_app.py
 **Prateek Verma**
 
 GitHub: https://github.com/prateek2k5
-
-LinkedIn: https://www.linkedin.com/in/prateek2k5
-
 ---
 
 ⭐ If you found this project helpful, consider giving it a star!
