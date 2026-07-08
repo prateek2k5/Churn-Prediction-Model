@@ -7,11 +7,8 @@ Built using **Python**, **Scikit-learn**, and **Streamlit**.
 ---
 
 ## 🚀 Live Demo
+(https://churn-prediction-model-ae5358rrq6sgzuoxxjgd9x.streamlit.app/)
 
-🔗 Add your deployed Streamlit link here
-
-Example:
-https://your-streamlit-app.streamlit.app
 
 ---
 
@@ -100,22 +97,6 @@ The application allows users to enter customer details through an interactive in
 
 ---
 
-## 📁 Project Structure
-
-```
-Customer-Churn-Prediction/
-│
-├── Churn_Modeling_Project.ipynb
-├── Churn_app.py
-├── churn_model.pkl
-├── Churn_Modelling.csv
-├── requirements.txt
-├── README.md
-└── .gitignore
-```
-
----
-
 ## ⚙️ Installation
 
 Clone the repository
@@ -141,16 +122,6 @@ Run the application
 ```bash
 streamlit run Churn_app.py
 ```
-
----
-
-## 📸 Application Preview
-
-Add screenshots of:
-
-- Home Page
-- Input Form
-- Prediction Result
 
 ---
 
