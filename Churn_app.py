@@ -14,14 +14,14 @@ st.write("Enter the Customer Details below : ")
 #Using slider we are taking input from the users (min,max,mid)values
 CreditScore=st.slider("Credit Score",0,1000,500)
 Geography=st.slider("Geography (0-->France 1-->Germany 2-->Spain)",0,2,1)
-Gender=st.slider("Gender (1-->Male , 0-->Female)",1.0,7.0,4.0)
+Gender=st.slider("Gender (1-->Male , 0-->Female)",0.0,1.0,0.5)
 Age=st.slider("Age",18,100,41)
 Tenure=st.slider("Tenure",0,100,50)
-Balance=st.slider("Balance")
+Balance=st.slider("Balance",0,10000000,5000000)
 NumOfProducts=st.slider("Num_Of_Products_Owned",0,100,50)
-HasCrCard=st.slider("Has_Credit_Card (0-->No 1-->Yes)",0,1)
+HasCrCard=st.slider("Has_Credit_Card (0-->No 1-->Yes)",0,1,0.5)
 IsActiveMember=st.slider("Is_Active_Member (0-->No 1-->Yes)",0,1)
-EstimatedSalary=st.slider("Estimated_Salary")
+EstimatedSalary=st.slider("Estimated_Salary",0,10000000,5000000)
 
 
 features=np.array([[CreditScore,Geography,Gender,Age,Tenure,Balance,NumOfProducts,HasCrCard,IsActiveMember,EstimatedSalary]])
